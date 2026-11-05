@@ -1,9 +1,9 @@
 cask "deckwerk" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.3.2"
-  sha256 arm:   "6be1cc3e0b1d9ee5a04b9089c1879744eb636dec437cdbebdceba3be8921dfe0",
-         intel: "c023f45cb43aeb575f575c233b553b10d2e03854204b27bae296ed41354dcacc"
+  version "0.3.3"
+  sha256 arm:   "bd8b944202ade5d44c8f6631172ea432eb2c3523b70be97c384fa75a57db3ba7",
+         intel: "272641574556672c9cf2e537e815c56c57c71182e712d32f1d851963ab45f557"
 
   url "https://github.com/vsitzmann/deckwerk/releases/download/v#{version}/deckwerk-#{version}-mac-#{arch}.dmg",
       verified: "github.com/vsitzmann/deckwerk/"
